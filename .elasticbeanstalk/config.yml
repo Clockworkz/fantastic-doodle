@@ -1,11 +1,11 @@
 branch-defaults:
-  default:
-    environment: Webapptest-dev
+  master:
+    environment: matthewwagh-dev
     group_suffix: null
 global:
-  application_name: Webapp test
+  application_name: matthewwagh
   default_ec2_keyname: null
   default_platform: Python 3.4
   default_region: eu-west-1
   profile: eb-cli
-  sc: null
+  sc: git
